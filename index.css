@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+
+.drop-down{
+    display: flex;
+    flex-direction: column;
+}
+
+#drop-down-btn{
+    background-color: #3EB489;
+    padding: 10px 12px;
+    border-style: none;
+    border-radius: 5px;
+    width: 75px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+#items{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item{
+    width: 150px;
+    height: 50px;
+    background-color: #dea5a4;
+    border-style: none;
+    text-align: center;
+    margin-top: 5px;
+}
