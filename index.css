@@ -1,10 +1,12 @@
 body{
     margin: 0;
+    display: inline-flex;
 }
 
 .drop-down{
     display: flex;
     flex-direction: column;
+    border: 5px solid black;
 }
 
 #drop-down-btn{
@@ -13,6 +15,16 @@ body{
     border-style: none;
     border-radius: 5px;
     width: 75px;
+}
+
+.btn{
+    border-style: none;
+    border-radius: 5px;
+    padding: 12px 16px;
+    font-size: 16px;
+    background-color: #3EB489;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .btn:hover{
@@ -31,4 +43,19 @@ body{
     border-style: none;
     text-align: center;
     margin-top: 5px;
+}
+
+.tabs{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text-area{
+    width: 60vw;
+    min-height: 200px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 5px;
 }
